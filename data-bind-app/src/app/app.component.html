@@ -1,0 +1,10 @@
+<img  src="https://upload.wikimedia.org/wikipedia/commons/3/34/Red_star.svg"height="42"width="42" (dblclick)=show()>
+
+<br> <h1 [hidden]="hidden">Look at the star</h1> <br>
+
+<h2>The count is {{cnt}}</h2>
+<button (click)=count1()>Click me!</button>
+
+<p>Presidents:</p>
+
+<li *ngFor= "let p of presidents">{{p.name}} {{p.term}}</li>
